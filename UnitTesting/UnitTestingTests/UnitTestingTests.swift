@@ -40,8 +40,13 @@ final class UnitTestingTests: XCTestCase {
 
     func testExample() throws {
         print("テストメソッドのtestExample()が呼び出された")
+        // 意図的にエラーを発生させる
+        XCTFail("Failing")
+//        XCTAssert(false, "これはテストの失敗です")
+        
         addTeardownBlock {
             print("addTeardownBlockが呼び出された。このブロックは、tearDownWithError()メソッドの前に呼び出されます。")
+            print("終わり")
         }
     }
 
