@@ -8,6 +8,8 @@
 import XCTest
 @testable import UnitTesting
 
+//@testable import UnitTestingはテストコード用の特殊なコード、テストターゲットからプログラム（モジュール）にアクセスできるようになり、変数などをテストコードで利用できる
+
 final class UnitTestingTests: XCTestCase {
     
 

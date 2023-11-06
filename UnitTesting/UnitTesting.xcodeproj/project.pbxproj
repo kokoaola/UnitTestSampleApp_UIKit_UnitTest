@@ -16,7 +16,8 @@
 		3B97D2C82AE4E8BC00E749AB /* UnitTestingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B97D2C72AE4E8BC00E749AB /* UnitTestingTests.swift */; };
 		3B97D2D22AE4E8BC00E749AB /* UnitTestingUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B97D2D12AE4E8BC00E749AB /* UnitTestingUITests.swift */; };
 		3B97D2D42AE4E8BC00E749AB /* UnitTestingUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B97D2D32AE4E8BC00E749AB /* UnitTestingUITestsLaunchTests.swift */; };
-		3B97D2E12AE5248C00E749AB /* SampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B97D2E02AE5248C00E749AB /* SampleTests.swift */; };
+		3BBC03782AF8E2F000FE8815 /* SignupGormModelValidatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BBC03772AF8E2EF00FE8815 /* SignupGormModelValidatorTests.swift */; };
+		3BBC037A2AF8E5BA00FE8815 /* SignupFormModelValidator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BBC03792AF8E5BA00FE8815 /* SignupFormModelValidator.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,8 +51,9 @@
 		3B97D2CD2AE4E8BC00E749AB /* UnitTestingUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UnitTestingUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3B97D2D12AE4E8BC00E749AB /* UnitTestingUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnitTestingUITests.swift; sourceTree = "<group>"; };
 		3B97D2D32AE4E8BC00E749AB /* UnitTestingUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnitTestingUITestsLaunchTests.swift; sourceTree = "<group>"; };
-		3B97D2E02AE5248C00E749AB /* SampleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleTests.swift; sourceTree = "<group>"; };
 		3BBC03762AF23DB800FE8815 /* UnitTesting.xctestplan */ = {isa = PBXFileReference; lastKnownFileType = text; path = UnitTesting.xctestplan; sourceTree = "<group>"; };
+		3BBC03772AF8E2EF00FE8815 /* SignupGormModelValidatorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignupGormModelValidatorTests.swift; sourceTree = "<group>"; };
+		3BBC03792AF8E5BA00FE8815 /* SignupFormModelValidator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignupFormModelValidator.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -118,7 +120,8 @@
 			isa = PBXGroup;
 			children = (
 				3B97D2C72AE4E8BC00E749AB /* UnitTestingTests.swift */,
-				3B97D2E02AE5248C00E749AB /* SampleTests.swift */,
+				3BBC03772AF8E2EF00FE8815 /* SignupGormModelValidatorTests.swift */,
+				3BBC03792AF8E5BA00FE8815 /* SignupFormModelValidator.swift */,
 			);
 			path = UnitTestingTests;
 			sourceTree = "<group>";
@@ -265,6 +268,7 @@
 			files = (
 				3B97D2B52AE4E8BA00E749AB /* ViewController.swift in Sources */,
 				3B97D2B12AE4E8BA00E749AB /* AppDelegate.swift in Sources */,
+				3BBC037A2AF8E5BA00FE8815 /* SignupFormModelValidator.swift in Sources */,
 				3B97D2B32AE4E8BA00E749AB /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -274,7 +278,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3B97D2C82AE4E8BC00E749AB /* UnitTestingTests.swift in Sources */,
-				3B97D2E12AE5248C00E749AB /* SampleTests.swift in Sources */,
+				3BBC03782AF8E2F000FE8815 /* SignupGormModelValidatorTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
